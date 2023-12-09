@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="port.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="left">My Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="#firstsection">Home</a></li>
+                <li><a href="#page1">My Skills</a></li>
+                <li><a href="#page2">Projects</a></li>
+                <li><a href="#last">Contact me</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <header>
+        <section id="firstsection">
+            <div class="leftsection">Hello, My Name is <span class="purple">Subhasri</span>
+                <div>And I am a passionate WebDeveloper</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="image/rituu.jpg" alt="image1">
+            </div>
+        </section>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['<i>video Editing</i>', '<i>&amp; web designing</i>'],
+                typeSpeed: 50,
+            });
+        </script>
+    </header>
+
+    <div id="page1">
+        <div id="left">
+            <div id="text1">
+                <h1>My Skills</h1>
+                <h4>
+                    As a dedicated web developer,I've honed a versatile skill set
+                    that empoers me to bring creative visions to life in the digital realm.
+                    My prificiency spans both front-end and back-end technologies ,including HTML, CSS, Javascript , and
+                    a variety of popular frameworks and libraries.
+                </h4>
+            </div>
+        </div>
+        <div id="right">
+            <div class="box">
+                <h1>Competative Programming</h1>
+                <p>
+                    I regularly do competitive coding since I love problem solving.
+                </p>
+            </div>
+            <div class="box">
+                <h1>Design and Development</h1>
+                <p>I like to do web designing</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="page2">
+        <div id="text2">
+            <h1>Project<br>(Calculator)</h1>
+        </div>
+        <div id="project">
+            <div id="img">
+                <a href="html_files/calculator.html"><img src="image/cals.png" alt="calculator"></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <section id="last">
+        <div id="page3" class="contact">
+            <br><br>
+            <h2>
+                Get In Touch
+            </h2>
+            <br>
+
+            <h2 class="collab">Lets collab and do a project</h2>
+            <br>
+
+            <p>contact me</p>
+            </br>
+            <a class="click" href="html_files/email.html"><img src="image/email.jpg" width="40px" height="40px" alt="email" /></a>
+            <a class="click" href="https://instagram.com/make_it_unique_with_subhasri_"><img src="image/insta.jpg"
+                    width="40px" height="40px" alt="instagram" /></a>
+            <a class="click" href="https://www.linkedin.com/in/subhasri-behera-613a3224b?"><img src="image/linkedin.jpg"
+                    width="40px" height="40px" alt="linkedin" /></a>
+            </br>
+            <br>
+            </br>
+            <p class="lastpart">@ 2023 Portfolio.</p>
+        </div>
+    </section>
+</body>
+
+</html>
